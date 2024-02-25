@@ -4,17 +4,16 @@
   padding: 2rem;
   text-align: center;
 }
+.App{
+  display: grid;
+  place-items: center;
+}
 #ASU{
   border-radius: 50px;
 }
 .contant{
   border-radius: 1000px;
   width: 70px;
-  
-}
-.App{
-  display: grid;
-  place-items: center;
 }
 h3{
   background-color:#888;

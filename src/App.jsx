@@ -5,7 +5,7 @@ const App=()=>{
   return (
     <div className="App">
       <h1>yaman alrfai</h1>
-      <Student />
+      <Student name="yaman" id={2000} graduation={false}/>
       <Contant />
     </div>
   );

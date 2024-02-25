@@ -1,20 +1,20 @@
-const student =()=>{
+const Student =(name,id,graduate)=>{
     return (
     <div>
-        <p>
-        I am new in web
-        </p>
        <h3> info </h3>
        <div id="userinfo">
        <ul>
-        <li>Student name: yaman</li>
-        <li>Student ID:2023</li>
-        <li>CS</li>
+        <li>Student name: {name}</li>
+        <li>Student ID:{id}</li>
+        <li>{graduate 
+       ?`${name} is a graduate student`
+       :`${name} is a graduate student`
+       }</li>
        </ul>
        </div>
-        <img src="/photo/download.jpg" id="ASU"></img>
+        <img src="/photo/download.jpg" id="ASU"/>
         
     </div>
     )
 };
-export default student;
+export default Student;
